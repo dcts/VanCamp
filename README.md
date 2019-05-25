@@ -47,9 +47,7 @@ rails db:migrate
 # generating a booking model w/ attributes van_id, user_id. checkin, checkout.
 rails g model booking van:references user:references checkin:date checkout:date
 
-
-
-
+# adding random change
 ```
 
 Rails app generated with [lewagon/rails-templates](https://github.com/lewagon/rails-templates), created by the [Le Wagon coding bootcamp](https://www.lewagon.com) team.
